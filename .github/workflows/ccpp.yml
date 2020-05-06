@@ -8,9 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1  
       - name: Download Clang
-        run: wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/master/clang-r353983c1.tar.gz
+        run: wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/master/clang-r365631c1.tar.gz
       - name: Extract Clang
-        run: mkdir clang-r353983c1 && cd clang-r353983c1 && tar -xvzf ../clang-r353983c1.tar.gz && cd ..
+        run: mkdir clang-r365631c1 && cd clang-r365631c1 && tar -xvzf ../clang-r365631c1.tar.gz && cd ..
       - name: Download GCC-Toolchain
         run: git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
       - name: Clean Working Enviroment
