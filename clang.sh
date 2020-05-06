@@ -1,4 +1,4 @@
-PATH="../clang-r353983c1/bin:../aarch64-linux-android-4.9/bin:${PATH}" \
+PATH="../clang-r365631c1/bin:../aarch64-linux-android-4.9/bin:${PATH}" \
 make -j3 O=out \
                       ARCH=arm64 \
                       CC=clang \
